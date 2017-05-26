@@ -9,8 +9,8 @@ import java.util.Date;
 /**
  * Created by dell on 2017/5/26.
  */
-@Configuration
-@EnableScheduling
+//@Configuration
+//@EnableScheduling
 public class MyTask {
 
     /**
@@ -21,14 +21,14 @@ public class MyTask {
      * 指定：秒、分钟、小时、日期、月份、星期、年（可选）
      * *：任意
      */
-    @Scheduled(cron = "0/10 * * * * *")
-    public void test1(){
-        System.out.println("MyTask.test1()"+new Date());
-    }
-
-    @Scheduled(cron = "0 0/1 * * * *")
-    public void test2(){
-        System.out.println("MyTask.test2()"+new Date());
-    }
+//    @Scheduled(cron = "0/10 * * * * *")
+//    public void test1(){
+//        System.out.println("MyTask.test1()"+new Date());
+//    }
+//
+//    @Scheduled(cron = "0 0/1 * * * *")
+//    public void test2(){
+//        System.out.println("MyTask.test2()"+new Date());
+//    }
 
 }
