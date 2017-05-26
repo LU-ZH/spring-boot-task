@@ -1,0 +1,7 @@
+
+
+1.新建一个Maven Project
+2.需要在pom.xml中 引入springBoot的依赖包
+3.编写自动类
+4.编写定时任务
+5.代码测试
